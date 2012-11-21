@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+#_table {
+	display: table;
+	width: 100%;
+}
+._tablerow {
+	display: table-row;	
+}
+._tablecol {
+	display: table-cell;
+}
+._tablelcol {
+	display: table-cell;	
+	width: 50%;
+	float: left;
+}
+._tablemcol {
+	display: table-cell;	
+	width: 25%;
+	float: left;
+}
+._tablercol {
+	display: table-cell;
+	width: 25%;	
+	float: left;
+}
+._itemtitle {
+	border-top: black solid 1px;	
+}
+.blank-input {
+	background: white;
+	border:none;
+	height: 24px;
+}
+.big-input {
+	width: 98%;
+}
+.semi-big-input {
+	width: 73%;
+}
+.mid-input {
+	width: 48%;
+}
+.small-input {
+	width: 23%;
+}
+.underline {
+	border-bottom: black thin solid;	
+}
+.noline {
+	border-bottom: none;
+}
+.oneline {
+	display: inline-block;
+}
+.cell {
+	width: 130px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.center {
+	text-align: center;	
+}
+/* font tracking */
+.font-small {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	text-align: center;
+}
+.h2 {
+	font-size:24px;	
+}
